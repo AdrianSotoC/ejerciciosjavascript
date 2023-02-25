@@ -1,5 +1,5 @@
-// let nombre = "Jesus";
-// let apellido = "Fernandez";
+// let nombre = "Adrian";
+// let apellido = "Soto";
 
 // Imprimir valores en la consola
 // console.log(nombre);
@@ -11,7 +11,7 @@
 comnetarios de multiples
 lineas
 */
-// nombre = "Omar";
+// nombre = "Oscar";
 // console.log(nombre);
 
 // Declaracion de una variable
@@ -30,10 +30,11 @@ let fechaDeNacimiento = "1995-05-20";
 let soltero = false;
 let activo = false;
 
-// console.log(nombre + " " + apellido);
-// console.log(edad);
-// console.log(fechaDeNacimiento);
-// console.log(soltero);
+console.log(nombre + " " + apellido);
+console.log(edad);
+console.log(fechaDeNacimiento);
+console.log(soltero);
+
 let precio= 45;
 let cantidad= 5;
 
