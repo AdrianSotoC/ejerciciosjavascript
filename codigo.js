@@ -25,13 +25,13 @@ variable2 = "reasignacion de dato";
 
 let nombre = "Adrian";
 let apellido = "Soto";
-let edad = 27;
+// let edad = 27;
 let fechaDeNacimiento = "1995-05-20";
 let soltero = false;
 let activo = false;
 
 console.log(nombre + " " + apellido);
-console.log(edad);
+//console.log(edad);
 console.log(fechaDeNacimiento);
 console.log(soltero);
 
@@ -54,3 +54,25 @@ console.log("Suma: ",suma)
 console.log("Resta: ",resta)
 console.log("Multiplicacion: ",multiplicacion)
 console.log("Division: ",division)
+
+/*
+if (// Condicion a evaluar ) {
+    // Codigo a ejecutar 
+} else if (/* Segunda condicion a evaluar ) {
+    // Codigo a ejecutar 
+} else {
+    // Codigo a ejecutar 
+}
+*/
+
+let edad = 16;
+
+if (edad >= 18) {
+    console.log("Eres mayor de edad");
+} else if (edad >= 14) {
+    console.log("Eres mayor a 14 pero menor a 18, necesitas permiso de tus padres")
+} else {
+    console.log("No tienes permiso")
+}
+
+console.log(edad);
