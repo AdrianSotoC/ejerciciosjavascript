@@ -76,3 +76,27 @@ if (edad >= 18) {
 }
 
 console.log(edad);
+
+/*
+switch (// Expresion a evaluar ) {
+    case a: // Codigo a ejecutar
+        break; //stops evaluating 
+    case b: // Codigo a ejecutar
+        break; //stops evaluating
+    default: //Codigo a evaluar
+}
+*/
+
+let age= 9;
+
+switch (age) {
+    case 7:
+        console.log("Tu tienes:",age,"de edad.")
+        break;
+    case 8:
+        console.log("Tu tienes:",age,"de edad")
+        break;
+    default:
+        console.log("No encontre tu edad")
+        break;
+}
